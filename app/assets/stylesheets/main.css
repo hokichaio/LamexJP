@@ -1,0 +1,91 @@
+@charset "utf-8";
+* {
+	font: 80% "メイリオ", Verdana, sans-serif;
+	font
+}
+
+html {
+height: 100%;
+background: black;
+display: block;
+}
+
+body {
+	height: 100%;
+	font-family: HelveticaNeueRegular, Helvetiva, Geneva, sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	background: black url(forest.jpg) repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	line-height: 1;
+	display: block;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 25pt;
+	color: white;
+}
+
+#wrapper {
+	width: 100%;
+	background: url(dot.png) repeat;
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	display: block;
+	
+}
+
+#products {
+	max-width: 1200px;
+}
+
+#item {
+	background: #CCCCCC;
+	width: 200px;
+	height: 110px;
+	margin: 5px;
+	padding: 5px;
+	border: solid 5px #999;
+	float: left;
+}
+
+#product_logo {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	float: left;
+}
+
+#footer {
+	height: 30px;
+	width: 100%;
+	background: black;
+	z-index: 2;
+	position: fixed;
+	bottom: 0px;
+	color: white;
+}
+#header {
+	width: 100%;
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+}
+#menu {
+	position: fixed;
+	z-index: 2;
+	top: 30px;
+	right: 150px;
+}
